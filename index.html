@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star Wars API</title>
+    <link rel="stylesheet" href="starWars.css">
+</head>
+<body>
+
+    <div class = "visible-wrapper">
+                    <div class ="header">
+                    <a href= "https://www.starwars.com/" target="_blank"></a>
+                    </div>
+                    <!--YouTube Trailer-->
+                    <div class='video-wrapper'>
+                        <div class="video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/83apjSbVV-o?autoplay=1&mute=1&start=4" frameborder="0" allow="accelerometer; autoplay ="1"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+            <!--Welcome Line-->
+
+
+                    <div class="welcome-tag"> 
+                        <h3>Welcome! Press the indicated button for more information</h3>
+                    </div>
+
+            <!--Button Group-->
+        
+                    <div class = "button-field">
+                            <div class="button-wrapper">
+                                <button class="button" id ="people" value ="people">People</button>
+                                <button class="button" id ="planets" value= "planets">Planets</button>
+                                <button class="button" id ="starships" value="starships">Starships</button>
+                                <button class="button" id ="species" value ="species">Species</button>
+                            </div>  
+                    
+
+                    </div>
+                <!-- Primary results field -->
+                    <div class="results" id ="bla" value= "0">
+                        <h3 class = "heading needSomeSpace" value = ""></h3>
+                        <h5 class = "sub-heading needSomeSpace">Click Something! May the Force Be With You!</h5>
+                        <ul class="listField">
+
+                        </ul>
+                    </div>
+            
+         </div> <!--wrapper end -->
+            <!--List Popup for second search -->
+            <div class="popup-wrapper">
+                        <div class="secondary-results popup">
+                            <div class="popup-close">x</div>
+                            <h3 class="secondHeading" value=""></h3>
+                            <h4>As Seen in this List of Films</h4>
+                            <h5>Opening-Crawl included</h5>
+                            <ul class="secondList">
+
+                            </ul>
+                        </div>
+            </div>   
+   
+    <script src="starWars.js"></script>
+</body>
+</html>
